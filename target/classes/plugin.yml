@@ -1,0 +1,19 @@
+api-version: 1.13
+author: "Jón ( ForgingMetal )"
+commands:
+  addshop:
+    description: "Adds shop to ShopSearch database"
+    usage: "/addshop <name> <location>"
+  deleteshop:
+    description: "Delete one of your shops with <name>"
+    usage: "/deleteshop <name>"
+  myshops:
+    description: "List your shops stored in ShopSearch database"
+    usage: /myshops
+  shops:
+    description: "List shops stored in ShopSearch database selling <item>"
+    usage: "/shops <item>"
+main: com.jbsalenger.shopsearch.ShopSearch
+name: ShopSearch
+version: 1.0
+website: "http://jbsalenger.com"
